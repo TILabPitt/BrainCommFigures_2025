@@ -1,6 +1,7 @@
 %% 
 % For fig 3 and 4
 
+load('20220924mouse_lass11_forBrainComm.mat')
 show(avgim_seq(:,:,2)) % channel 3 is OIS BOLD, channel 2 is OIS CBV
 
 %% Grab time series average for only brain tissue
